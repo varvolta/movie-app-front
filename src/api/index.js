@@ -32,18 +32,15 @@ class Api {
         body,
         headers = {},
     }) => {
-        url = `${this.cleanReq ? this.URL : 'https://autohackers.am:3000/api'}${this.URL
+        url = `${this.cleanReq ? this.URL : 'https://localhost:3000/api'}${this.URL
             }${url}`
 
         const options = {
             method,
-            mode: 'no-cors',
             headers: {
                 'content-type': 'application/json',
-                ...headers,
-                'Access-Control-Allow-Origin': '*'
-            },
-            credentials: 'same-origin'
+                ...headers
+            }
         }
 
         if (body) {

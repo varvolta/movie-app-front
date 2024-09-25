@@ -1,0 +1,31 @@
+.root {
+    padding: 80px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.block {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    flex: 1;
+    gap: 0 20px;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0 20px;
+    margin-top: 40px;
+}
+
+.uploader {
+    height: 100% !important;
+    border: 1px dashed white !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+}

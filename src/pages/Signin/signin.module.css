@@ -1,0 +1,27 @@
+.root {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 16px;
+}
+
+.block {
+    max-width: 300px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px 0;
+}
+
+.title {
+    font-size: 64px;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.checkbox_container {
+    display: flex;
+    justify-content: center;
+}

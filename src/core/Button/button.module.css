@@ -1,0 +1,44 @@
+.root {
+    font-size: 12px;
+    font-weight: 400;
+    cursor: pointer;
+    transition: opacity 200ms;
+    padding: 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &:hover {
+        opacity: 0.8;
+    }
+}
+
+.primary {
+    background-color: var(--primary-btn-bg);
+    color: #fff;
+}
+
+.primary_disabled {
+    background-color: var(--primary-btn-bg-disabled);
+    color: #fff;
+}
+
+.secondary {
+    background-color: transparent;
+    border: 1px solid white;
+    color: #fff;
+}
+
+.secondary_disabled {
+    background-color: var(--primary-btn-bg-disabled);
+    color: #fff;
+}
+
+.primary,
+.primary_disabled,
+.secondary,
+.secondary_disabled {
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 10px;
+    height: 54px;
+}

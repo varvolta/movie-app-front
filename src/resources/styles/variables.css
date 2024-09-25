@@ -1,0 +1,6 @@
+:root {
+    --background: rgba(9, 53, 69, 1);
+    --primary-btn-bg: rgba(43, 209, 126, 1);
+    --primary-btn-bg-disabled: rgb(175, 175, 175);
+    --error-color: rgb(220, 90, 90);
+}

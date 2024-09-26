@@ -32,7 +32,7 @@ class Api {
         body,
         headers = {},
     }) => {
-        url = `${this.cleanReq ? this.URL : 'https://movie-ruby-zeta.vercel.app/api'}${this.URL
+        url = `${this.cleanReq ? this.URL : 'https://autohackers.am:3000/api'}${this.URL
             }${url}`
 
         const options = {

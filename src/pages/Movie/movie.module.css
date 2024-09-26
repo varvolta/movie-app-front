@@ -10,6 +10,10 @@
     grid-template-columns: 1fr 1fr;
     flex: 1;
     gap: 0 20px;
+    & > label {
+        display: flex;
+        justify-content: flex-start !important;
+    }
 }
 
 .row {
@@ -28,4 +32,19 @@
     flex-direction: column;
     border-radius: 10px;
     background-color: rgba(255, 255, 255, 0.1);
+    width: 100%;
+}
+
+.image_presenter {
+    object-fit: cover;
+    flex: 1;
+}
+
+.content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }

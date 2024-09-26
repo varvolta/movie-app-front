@@ -8,6 +8,7 @@
     flex-direction: column;
     & > img {
         flex: 1;
+        object-fit: cover;
     }
     &:hover {
         opacity: 0.8;

@@ -55,6 +55,7 @@ const Input = ({
                 }}
             >
                 <input type={validationKey === 'password' ? (visibility ? 'password' : 'text') : type}
+                    value={defaultValue}
                     style={{
                         color: validationKey && !isValid && 'var(--error-color)',
                     }}

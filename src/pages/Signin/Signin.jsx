@@ -42,7 +42,7 @@ const Signin = () => {
                 <div className={styles.checkbox_container}>
                     <Checkbox label={'Remember me'}
                         onChange={(e) => {
-                            console.log(e.target.checked)
+
                         }}
                     />
                 </div>
